@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'mkv2itunes'
+

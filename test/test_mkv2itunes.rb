@@ -11,10 +11,14 @@ class TestMkv2itunes < Minitest::Test
       "NOVA.S46E01.Pluto.and.Beyond.720p.HDTV.x264-W4F.nzb",        # Original name of the NZB file
       "NOVA.S46E01.Pluto.and.Beyond.720p.HDTV.x264-W4F",            # Clean version of the job name
       "",                                                           # indexer report number
-      "sickbeard",                                                  # user defined category
+      "tvshow",                                                     # user defined category
       "alt.binaries.tv",                                            # group that the NZB was posted in
       "0"                                                           # status of processing
     ]
+  end
+
+  def test_basic_parameters
+    
   end
 
 end
